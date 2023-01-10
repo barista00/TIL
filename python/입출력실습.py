@@ -66,3 +66,16 @@ else :
     for i in tuple(num):
         a = a + int(i)
     print(a)
+
+# while로 풀어보기
+# 들어온 숫자를 10으로 나누고 나머지를 더하면 똑같은 결과를 얻을 수 있음
+n = int(input())
+
+if n < 0:
+    print(-1)
+else :
+    result = 0
+    while n > 0:
+        result = result + n%10 # n에서 들어온 수를 10으로 나눈 나머지값 result에 넣음
+        n //= 10 # 나눠줄 때마다 n을 10으로 나눠주고 다시 반복문 돌리고 반복
+    print(result)
