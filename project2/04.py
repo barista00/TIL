@@ -3,6 +3,7 @@ from pprint import pprint
 
 
 def search_movie(title):
+    # url에 필수로 적어야하는 인증키랑 다른게 또 있는지 Query String 확인잘하자(required)
     url = f'https://api.themoviedb.org/3/search/movie?api_key=필수로적을인증키&query={title}'
     response = requests.get(url)
     final = response.json()
