@@ -1,0 +1,154 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    
+}
+
+.main-text{
+    color: white;
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.main-text2{
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    padding: 30px;
+}
+
+.sub-explain{
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.blackground{
+    background-color: black;
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+}
+
+.wid-100{
+    background-color: white;
+    padding: 20px;
+}
+
+.contactus{
+    font-size: 25px;
+}
+
+.input100{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.input50{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.float{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button{
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(227, 229, 86);
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin-left: auto;
+    float: right;
+}
+
+.wid-100{
+    padding-bottom: 80px;
+}
+
+.container-layout{
+    max-width: 1000px;
+    
+}
+
+.container-layout div{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+@media screen and (max-width : 768px){
+    .container-layout div{
+        width: 100%;
+    }
+}
+
+.shop-bg{
+    background-color: #eee;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.shop-container{
+    display: flex;
+    width: 100%;
+}
+
+.shop-item{
+    width: 33.3%;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+.overlay-wrap:hover .overlay{
+    margin-top: 50%;
+}

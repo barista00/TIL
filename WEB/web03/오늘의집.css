@@ -1,0 +1,67 @@
+.container{
+    max-width: 500px;
+    position: relative;
+    border: 5px solid beige;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.refre{
+    width: 100%;
+}
+
+.sticker{
+    position: absolute;
+    width: 10%;
+    left: 5%;
+}
+
+.seanson{
+    width: 30%;
+    right: 0;
+    position: absolute;
+}
+/* 여기까지 이미지 style */
+
+.explain{
+    background-color: beige;
+}
+
+.explain > p{
+    color: black;
+}
+
+.company{
+    font-weight: 700;
+    color: grey;
+    font-size: 24px;
+    margin: 0;
+}
+
+.name{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.grade{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.star{
+    color: palevioletred;
+    font-size: 25px;
+}
+
+.review{
+    color: grey;
+}

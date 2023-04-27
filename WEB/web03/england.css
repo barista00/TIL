@@ -1,0 +1,30 @@
+.container{
+    max-width: 600px;
+    border: 1px solid black;
+}
+
+.image{
+    position: relative;
+}
+
+.tim{
+    width: 100%;
+}
+
+.explain{
+    padding: 0 20px 20px 20px;
+}
+
+.explain > p {
+    font-weight: bold;
+}
+
+.programmer{
+    font-size: 20px;
+}
+
+.flag{
+    width: 20%;
+    position: absolute;
+    right: 0;
+}

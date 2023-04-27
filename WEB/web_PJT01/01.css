@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.mainbox {
+    width: 600px;
+    border: 3px solid orange;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.box_01 {
+    margin-top: 15px;
+}
+
+.box_01 > div {
+    display: inline-block;
+    border-radius: 7px;
+    background-color: green;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+}
+
+p > a{
+    text-decoration: none;
+    color: white;
+}
+
+.box_02{
+    margin-top: 15px;
+}
+
+.box_02 > a {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.hash-tag{
+    margin: 0px;
+}
+
+.img > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.profile > p{
+    font-family: 'Single Day';
+}

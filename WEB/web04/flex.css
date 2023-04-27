@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.navbar{
+    display: flex;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo{
+    width: 50%;
+}
+
+.bi{
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.navbar-button{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.button-signup{
+    margin-right: 20%;
+}
+
+.btn{
+    margin: 0 10px 0 10px;
+}
+
+/* navbar------- */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+
+.main-text3{
+    display: flex;
+}
+
+.main-text3 > div{
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+/* -------main--------- */
+
+.footer{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

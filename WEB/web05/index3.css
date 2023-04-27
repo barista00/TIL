@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.container-box{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.bi {
+    font-size: 100px;
+    text-align: center;
+}
+
+.container-profile{
+    margin-top: 30px;
+}
+
+.container-profile > p{
+    text-align: center;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head-text{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
